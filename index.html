@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Galerie Astro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- (optionnel) GLightbox, laissé mais pas utilisé ici -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1>🌌 Galerie Astronomique</h1>
+
+<div id="gallery" class="gallery"></div>
+
+
+<!-- ✅ VIEWER (OBLIGATOIRE AVANT LE SCRIPT) -->
+<div id="viewer" class="viewer hidden">
+    <span class="close">&times;</span>
+    <img id="viewer-img">
+    <div class="nav prev">&#10094;</div>
+    <div class="nav next">&#10095;</div>
+</div>
+
+
+<!-- ✅ scripts TOUJOURS à la fin -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

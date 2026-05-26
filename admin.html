@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Galerie</title>
+</head>
+<body>
+
+<h2>Annotations (copier/coller)</h2>
+
+<textarea id="editor" style="width:100%; height:300px;"></textarea>
+
+<button onclick="save()">Sauvegarder</button>
+
+<script>
+fetch("data.json")
+.then(res => res.text())
+.then(txt => document.getElementById("editor").value = txt);
+
+function save() {
+    alert("Copie le contenu et remplace data.json sur ton FTP !");
+}
+</script>
+
+</body>
+</html>

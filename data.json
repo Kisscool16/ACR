@@ -1,0 +1,10 @@
+{
+  "img1.jpg": {
+    "title": "Image 1",
+    "desc": "Test description"
+  },
+  "img2.jpg": {
+    "title": "Image 2",
+    "desc": "Deuxième image"
+  }
+}
